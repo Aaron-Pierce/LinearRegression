@@ -72,5 +72,6 @@ function draw(){
 }
 
 function mouseClicked(){
+    if(mouseX < width && mouseY < height)
     points.push([mouseX, height-mouseY]);
 }
